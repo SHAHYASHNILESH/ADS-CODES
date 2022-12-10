@@ -47,10 +47,11 @@ void multipop(){
     }
     
     else{
-        int x=rand()%5;
+        int x=rand()%5+1;
+        printf("%d",x);
         for(int i=1;i<=x;i++){
+            //cost++;
             pop();
-            cost++;
         }
     }
 }
